@@ -1,0 +1,120 @@
+/* Это теперь не нужно, так как подключен reset.css
+*{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+    padding: 0px;
+} */
+
+/* Подключение Google шрифтов */
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    background-color:rgba(255, 113, 67, 0.27);
+    height: 145px;  
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo-nav {
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.logo-nav a {
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 20px;
+    color: #696871;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    color: #19191B;
+}
+
+.btn{
+    height: 60px;
+    width: 215px;
+    border-radius: 10px;
+}
+
+.btn1{
+    padding: 20px;
+    background: #FF7143;
+    border: 1px solid #FF7143;
+   
+}
+
+.cntr-main1{
+    max-width: 1440px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cntr-main1-inner1{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+H1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    color: #19191B;
+    margin-bottom: 20px;
+}
+
+.cntr-main1-inner1 p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+    margin: 20px;
+}
+
+.btn2{
+    padding: 20px;
+    background: #5454D4;
+    border: 1px solid #5454D4;
+    margin-right: 30px;
+    
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn3{
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #5454D4;
+    
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #5454D4;
+}
