@@ -11,6 +11,7 @@
 body{
     font-family: 'DM Sans', sans-serif;
 }
+
 section{
     display: flex;
     flex-direction: column;
@@ -33,9 +34,18 @@ header, footer {
     align-items: center;   
 }
 
+.logo-nav>div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-style: italic;
+    text-decoration: dotted;
+    font-size: 10px;
+}
+
 .logo-nav a {
     font-weight: 700;
-    font-size: 15px;
+    /* font-size: 15px; */
     text-decoration: none;
     line-height: 20px;
     color: #696871;
